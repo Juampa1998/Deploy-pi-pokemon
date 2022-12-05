@@ -1,0 +1,48 @@
+.fondo{
+    /* border: 3px solid black; */
+    margin: 50px;
+    width: 300px;
+    border-radius: 20%;
+    background-color: rgba(248, 197, 135, 0.616);
+    /* opacity: 0.8; */
+}
+.img{
+    width: 8vw;
+    height: 8vw;
+}
+
+.types {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1vh;
+    text-decoration: none;
+    
+    
+}
+
+.typesImg {
+    width: 5vw;
+    height: 2vw;
+}
+
+.text {
+    text-decoration: none;
+    font-family: 'Verdana', sans-serif;
+    font-size: 0.8rem;
+    color: rgba(48, 30, 9, 0.616)
+}
+
+.none {
+    text-decoration: none;
+    color: rgba(48, 30, 9, 0.616);
+}
+
+.fondo:hover{
+    background: rgb(3,3,4);
+background: linear-gradient(157deg, rgba(3,3,4,0.9864320728291317) 24%, rgba(236,153,35,0.8855917366946778) 50%, rgba(0,0,0,0.908000700280112) 71%);
+
+    /* opacity: 0.6; */
+}
